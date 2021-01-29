@@ -1,0 +1,27 @@
+.Photographers{
+    
+    margin: auto;
+    margin-bottom: 2em;
+    .title-photo{
+        h3{
+            font-size: 30px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    .Cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        .card{
+            width: 350px;
+            
+            img{
+                width: 100%;
+            }
+        }    
+    }
+}

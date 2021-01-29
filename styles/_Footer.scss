@@ -1,0 +1,25 @@
+footer{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .img-footer{
+        padding: 3em;
+    }
+    .contact-links{
+        font-size: 30px;
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+        a:hover{
+            color: teal;
+        }
+        p{
+            color: whitesmoke;
+            font-size: 20px;
+        }
+    }
+}

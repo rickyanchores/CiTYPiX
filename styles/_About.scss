@@ -1,0 +1,37 @@
+.About{
+   width: 80%;
+   margin: auto;
+   margin-bottom: 2em;
+   .about-title{
+      h3{
+         font-size: 30px;
+         text-transform: uppercase;
+      }
+   }
+   .flex-about{
+      display: flex;
+      align-items: center;
+      padding: 2em;
+      .txt-about{
+         padding: 3em;
+         h3{
+            font-size: 50px;
+         }
+      }
+   }
+}
+
+
+@media(max-width:700px){
+  .About{
+     width: 80%;
+     margin: auto;
+     .flex-about{
+        display: block;
+        padding: 0;
+        .txt-about{
+           padding: 0;
+        }
+      }
+   }
+}
