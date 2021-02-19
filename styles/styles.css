@@ -39,6 +39,10 @@ nav {
   text-decoration: none;
 }
 
+.nav-ul li a:hover {
+  color: gold;
+}
+
 /*button*/
 .hamburger {
   display: none;
