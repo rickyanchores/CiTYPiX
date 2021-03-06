@@ -7,7 +7,8 @@
   <!-- FontAwesome Cdn -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   
-  <!---->
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./styles/styles.css">
   <title>CiTYPiX</title>
 </head>
@@ -42,15 +43,15 @@
 
   <div class="Gallery" id="Gallery">
       <h3>Gallery</h3>
-      <div class="grid-container">
-          <div class="box a"><img src="./images/ark2.jpeg" alt=""></div>
+      <div data-aos="fade-up" data-aos-delay="100" class="grid-container">
+          <div  class="box a"><img src="./images/ark2.jpeg" alt=""></div>
           <div class="box b"><img src="./images/ark7.jpeg" alt=""></div>
           <div class="box c"><img src="./images/ark3.jpeg" alt=""></div>
           <div class="box d"><img src="./images/ark6.jpeg" alt=""></div>
       </div>
   </div>
 
-  <div class="About" id="About">
+  <div data-aos="fade-up" data-aos-delay="100" class="About" id="About">
     <div class="about-title">
       <h3>About</h3>
     </div>
@@ -67,12 +68,12 @@
     </div>
   </div>
 
-  <div class="Photographers">
+  <div data-aos="fade-up" data-aos-delay="100" class="Photographers">
     <div class="title-photo">
       <h3>Photographers</h3>
     </div>
 
-    <div class="Cards">
+    <div data-aos="fade-up" data-aos-delay="100" class="Cards">
       <div class="card">
         <img src="./images/photo2.jpeg" alt="">
         <h3>Ersan D.</h3>
@@ -112,5 +113,9 @@
 
 
   <script src="./main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
