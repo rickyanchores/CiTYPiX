@@ -37,6 +37,7 @@ nav {
   color: #fff;
   padding: 1em;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav-ul li a:hover {
